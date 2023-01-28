@@ -255,24 +255,70 @@ hr{
   }
 
         /* Media Query */
-  @media (max-width :771px){
-    .main{
-      width: 80%;
-      align-items: center;
+        @media (max-width :771px){
+          .main{
+            
+            align-items: center;
+            
+          }
+          .para1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30rem;
+          }
       
-    }
-    .para1{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+          .para1-row2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
       
-    }
- 
- 
-    .para2{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    
-  }
+          .para1-row2>img{
+            width: 100%;
+            margin-right: 25%;
+          }
+          .para2{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30rem;
+          }
+      
+          .cardrow-1{
+            height: fit-content;
+            font-size: 80%;
+            
+          }
+      
+          .card{
+            font-size: 70%;
+          }
+          
+          .blue-para>p{
+            font-size: 70%;
+          }
+      
+          .blue-para>button{
+            width: fit-content;
+            height: fit-content;
+          }
+          .blue-para>button>h4{
+            font-size: 70%;
+          }
+          .header>div{
+            font-size: 70%;
+          }
+          .para1>div{
+            font-size: 70%;
+          }
+         .para2>div{
+          font-size: 70%;
+          width: 100%;
+         }
+         .last-para{
+          font-size: 70%;
+          margin-top: 10%;
+         }
+        }
